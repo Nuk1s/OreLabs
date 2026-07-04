@@ -35,9 +35,9 @@ Related Documents:
 
 ## Purpose
 
-This document defines the fundamental laws governing OreLabs Studio.
+This Constitution defines the highest-level laws governing OreLabs Studio.
 
-Every developer, contributor and AI system SHALL follow this Constitution.
+Every person, AI system, workflow, specification and engineering process SHALL comply with this Constitution.
 
 If any document conflicts with this Constitution, the Constitution SHALL take precedence.
 
@@ -45,53 +45,85 @@ If any document conflicts with this Constitution, the Constitution SHALL take pr
 
 # Article I — Authority
 
-This Constitution is the highest-level governing document of OreLabs.
+This Constitution is the highest authority within OreLabs.
 
-Every standard, workflow, specification, engineering document and knowledge document SHALL comply with this Constitution.
+Every document SHALL comply with this Constitution.
 
 No document MAY override this Constitution.
 
----
+No workflow MAY bypass this Constitution.
 
-# Article II — Source of Truth
-
-GitHub SHALL remain the only official source of truth.
-
-Approved information SHALL NOT exist exclusively outside the repository.
-
-Temporary discussions MAY occur elsewhere.
-
-Approved knowledge SHALL be stored in GitHub.
+No implementation MAY violate this Constitution.
 
 ---
 
-# Article III — Documentation First
+# Article II — Identity
+
+OreLabs is an AI-First Engineering Studio.
+
+OreLabs builds engineering systems before building products.
+
+Games are products.
+
+Knowledge is an asset.
+
+Documentation is infrastructure.
+
+Architecture is the foundation.
+
+---
+
+# Article III — Source of Truth
+
+GitHub SHALL remain the only official Source of Truth.
+
+Approved information SHALL exist inside the repository.
+
+Temporary discussions MAY exist elsewhere.
+
+Temporary information SHALL become official only after being added to GitHub.
+
+---
+
+# Article IV — Documentation First
 
 Documentation MUST exist before implementation begins.
 
 Implementation SHALL follow approved documentation.
 
-Code SHALL never define architecture.
+Code SHALL implement documentation.
+
+Code SHALL NOT define architecture.
 
 Documentation defines architecture.
 
 ---
 
-# Article IV — Architecture First
+# Article V — Architecture First
 
 Architecture SHALL be designed before implementation.
 
-Every system SHALL have a documented purpose.
+Every system SHALL define:
 
-Every system SHALL define its responsibilities.
+- Purpose
+- Responsibilities
+- Dependencies
+- Expected Inputs
+- Expected Outputs
+- Future Expansion
 
-Every system SHALL define its dependencies.
+Architecture SHALL prioritize:
 
-Architecture SHALL prioritize scalability and maintainability.
+- Simplicity
+- Maintainability
+- Scalability
+- Readability
+
+Short-term convenience SHALL NOT override long-term architecture.
 
 ---
 
-# Article V — Artificial Intelligence
+# Article VI — Artificial Intelligence
 
 Artificial Intelligence is an engineering tool.
 
@@ -102,87 +134,146 @@ Artificial Intelligence MAY:
 - Generate assets.
 - Review implementations.
 - Suggest improvements.
+- Detect inconsistencies.
+- Automate repetitive work.
 
 Artificial Intelligence SHALL NOT:
 
 - Redefine approved architecture.
+- Modify this Constitution.
 - Override approved standards.
-- Modify the Constitution.
-- Replace the Founder in decision making.
+- Replace the Founder.
+- Replace architectural decisions.
 
-Final architectural authority belongs to the Founder.
+AI assists.
 
----
-
-# Article VI — Standards
-
-Every approved document SHALL comply with OreLabs standards.
-
-Every document SHALL use Engineering English.
-
-Every document SHALL be deterministic.
-
-Every document SHALL follow the official document structure.
+Humans decide.
 
 ---
 
-# Article VII — Single Source of Truth
+# Article VII — Standards
 
-Every piece of official information SHALL exist in one authoritative location.
+Every official document SHALL comply with OreLabs Standards.
+
+Every official document SHALL:
+
+- Use Engineering English.
+- Be deterministic.
+- Follow the official document structure.
+- Have one responsibility.
+- Avoid ambiguity.
+
+Documents SHALL be written for both humans and AI systems.
+
+---
+
+# Article VIII — Development Workflow
+
+Every development activity SHALL follow the official OreLabs Workflow.
+
+Implementation SHALL NOT bypass the approved Workflow.
+
+The Workflow defines the mandatory process from idea to completed implementation.
+
+Workflow specification:
+
+- OL-FND-005 OreLabs Workflow
+
+---
+
+# Article IX — Single Source of Truth
+
+Every piece of official information SHALL exist in exactly one authoritative location.
 
 Duplicate documentation SHALL be avoided.
 
 Conflicting documentation SHALL NOT exist.
 
----
-
-# Article VIII — Change Management
-
-Every major architectural change SHALL begin with an RFC.
-
-Approved changes SHALL update the relevant documentation before implementation.
-
-Architectural decisions SHOULD be recorded in OL-FND-007.
-
-Routine development changes SHALL remain part of Git history.
+When conflicts occur, the Source of Truth SHALL prevail.
 
 ---
 
-# Article IX — Knowledge
+# Article X — Change Management
+
+Major architectural changes SHALL begin with an RFC.
+
+Approved changes SHALL update documentation before implementation.
+
+Architectural decisions SHALL be recorded inside:
+
+- OL-FND-007 OreLabs Decisions
+
+Routine implementation changes SHALL remain part of Git history.
+
+Git history SHALL NOT replace architectural decisions.
+
+---
+
+# Article XI — Knowledge
 
 Knowledge is a strategic asset.
 
-Every completed project SHOULD improve OreLabs.
+Every completed project SHOULD strengthen OreLabs.
 
 Reusable knowledge SHALL have higher priority than one-time solutions.
 
-Knowledge SHALL outlive individual AI models, tools and technologies.
+Knowledge SHALL outlive:
+
+- AI models
+- Programming languages
+- Frameworks
+- Game engines
+- Technologies
 
 ---
 
-# Article X — Simplicity
+# Article XII — Simplicity
 
 Processes SHALL remain as simple as possible.
 
-Documentation SHALL support development.
+Documentation SHALL reduce complexity.
 
 Documentation SHALL NOT become unnecessary overhead.
 
-If a process no longer improves development, it SHOULD be reviewed.
+If a process no longer improves development, the process SHOULD be reviewed.
+
+Automation SHOULD replace repetitive work whenever practical.
 
 ---
 
-# Article XI — Scalability
+# Article XIII — Scalability
 
 OreLabs SHALL be designed for long-term growth.
 
-Every new system SHOULD support future expansion.
+Every system SHOULD support future expansion.
 
-Short-term convenience SHALL NOT compromise long-term architecture.
+Reusable systems SHALL be preferred over isolated implementations.
+
+Every completed project SHOULD improve future development.
 
 ---
 
-# Article XII — Decision Making
+# Article XIV — Documentation Quality
+
+Every official document SHALL answer all questions that a competent developer or AI system would reasonably ask before starting work.
+
+Every document SHALL be:
+
+- Complete
+- Deterministic
+- Self-consistent
+- Easy to navigate
+- Easy to maintain
+
+If uncertainty exists, the document SHALL be improved before implementation continues.
+
+Documentation SHALL reduce assumptions.
+
+Documentation SHALL reduce interpretation.
+
+---
+
+# Article XV — Decision Making
 
 The Founder has final authority over strategic decisions.
 
@@ -194,7 +285,7 @@ Every participant SHALL operate within their assigned responsibilities.
 
 ---
 
-# Article XIII — Amendments
+# Article XVI — Amendments
 
 This Constitution SHALL NOT be modified directly.
 
@@ -203,13 +294,15 @@ Every amendment MUST:
 1. Begin with an RFC.
 2. Be reviewed.
 3. Be approved by the Founder.
-4. Update related documentation if necessary.
+4. Update related documentation if required.
+
+No amendment SHALL violate the Mission or Vision of OreLabs.
 
 ---
 
 # Constitutional Principles
 
-OreLabs is built upon the following principles:
+OreLabs is built upon the following permanent principles.
 
 - Systems over chaos.
 - Documentation over memory.
@@ -219,6 +312,8 @@ OreLabs is built upon the following principles:
 - Human judgement over AI autonomy.
 - Simplicity over unnecessary complexity.
 - Long-term thinking over short-term convenience.
+- Automation over manual repetition.
+- Reusable systems over temporary solutions.
 
 ---
 
@@ -226,7 +321,15 @@ OreLabs is built upon the following principles:
 
 OreLabs exists to build engineering systems capable of creating better games through structured knowledge, reusable architecture and responsible use of artificial intelligence.
 
-This Constitution serves as the permanent foundation of OreLabs Studio.
+The Constitution defines the permanent laws of OreLabs.
+
+The Workflow defines how these laws are executed.
+
+The Standards define how these laws are documented.
+
+Every future document extends this foundation.
+
+Together they form the operating system of OreLabs Studio.
 
 ---
 
@@ -235,3 +338,5 @@ This Constitution serves as the permanent foundation of OreLabs Studio.
 ## v0.1
 
 Initial Release.
+
+Approved as the constitutional foundation of OreLabs Studio.ы
