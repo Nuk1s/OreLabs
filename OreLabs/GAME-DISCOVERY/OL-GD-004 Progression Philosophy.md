@@ -1,0 +1,3 @@
+# Progression Philosophy
+
+Status: Draft
