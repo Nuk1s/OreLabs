@@ -226,3 +226,11 @@ Every major progression stage should have a meaningful completion point.
 Players should feel that they have mastered the current stage before unlocking the next one.
 
 Rebirth exists to transform mastery into a new beginning.
+
+# Foundation Progression Principle
+
+Strength is the foundation of player progression.
+
+Every other progression system either depends on Strength directly or amplifies the player's ability to develop it.
+
+The entire progression ecosystem is built around strengthening this foundation rather than replacing it.
