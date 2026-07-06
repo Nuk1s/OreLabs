@@ -1,4 +1,4 @@
-# OL-GD-006 — Game Systems
+# OL-GD-007 — Game Systems
 
 Version: 1.0
 Status: Draft
