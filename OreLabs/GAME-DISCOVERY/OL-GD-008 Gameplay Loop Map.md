@@ -1,4 +1,4 @@
-# OL-GD-007 — Gameplay Loop Map
+# OL-GD-008 — Gameplay Loop Map
 
 Version: 1.0
 Status: Draft
@@ -6,7 +6,7 @@ Owner: Game Design
 Depends On:
 - OL-GD-003 Core Gameplay Loop
 - OL-GD-004 Progression Philosophy
-- OL-GD-006 Game Systems
+- OL-GD-007 Game Systems
 
 ---
 
