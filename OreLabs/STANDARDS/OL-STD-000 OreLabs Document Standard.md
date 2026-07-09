@@ -124,7 +124,7 @@ Current Categories
 | OL-FND | Foundation |
 | OL-STD | Standards |
 | OL-AI | Artificial Intelligence |
-| OL-ENG | Engineering |
+| OL-ARC | Architecture |
 | OL-KB | Knowledge Base |
 | OL-DSN | Design |
 | OL-RFC | Request For Change |

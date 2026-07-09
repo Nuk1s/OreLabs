@@ -29,7 +29,7 @@ Depends On:
 Related Documents:
 - OL-FND-006
 - OL-FND-007
-- OL-ENG-001
+- OL-ARC-001
 - OL-RFC-001
 ---
 
@@ -1565,6 +1565,12 @@ RFC
 Implementation
 
 Every lower document inherits the rules of higher documents.
+
+---
+
+# Repository Structure Freeze
+
+Once a repository section becomes active, its folder hierarchy and document identifiers should remain stable. Structural refactoring is only performed when it provides a significant architectural benefit and must preserve backward compatibility for all existing documentation.
 
 ---
 
