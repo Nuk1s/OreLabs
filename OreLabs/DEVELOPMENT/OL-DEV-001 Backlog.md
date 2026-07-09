@@ -136,6 +136,18 @@ Related Documents:
 
 ---
 
+## Definition of Done
+
+A task may only be marked as Completed when:
+
+- implementation is finished;
+- documentation is updated;
+- testing is completed;
+- no critical issues remain;
+- the implementation follows the Architecture documents.
+
+---
+
 # Epic: Core Framework
 
 ☐ Player Profile
