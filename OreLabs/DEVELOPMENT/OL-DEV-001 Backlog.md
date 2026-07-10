@@ -150,19 +150,31 @@ A task may only be marked as Completed when:
 
 # Epic: Core Framework
 
-☐ Player Profile
+☑ Player Profile (Phase 1 + Sprint 2 + Sprint 3 - Full Runtime)
 
-☐ Data Service
+☑ Data Service (Phase 1 + Sprint 2 + Sprint 3 + Sprint 4 - Profile Owner + Internal API)
 
-☐ Save System
+☑ Save System (Phase 1 + Sprint 2 - Runtime Lifecycle)
 
-☐ Networking
+☑ Networking (Phase 1 - Remote Definitions)
 
-☐ Configuration
+☑ Configuration (Phase 1 + Sprint 2 - Runtime Loading)
 
-☐ Bootstrap
+☑ Bootstrap (Phase 1 + Sprint 2 - Full Runtime)
 
-☐ Analytics
+☑ Analytics (Phase 1 + Sprint 2 - Runtime Lifecycle)
+
+☑ Service Registry (Sprint 2 - Central Registry)
+
+☑ Server Entry Point (Sprint 2 - ServerEntry.server.lua)
+
+☑ Profile Template (Sprint 3 - Default Profile Structure)
+
+☑ Internal Events (Sprint 3 - ProfileCreated/Ready/Released)
+
+☑ Profile Validation (Sprint 3 - Auto-repair Missing Fields)
+
+☑ Service Integration (Sprint 4 - All Services use DataService)
 
 ---
 
