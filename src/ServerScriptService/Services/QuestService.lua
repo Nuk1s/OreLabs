@@ -1,19 +1,3 @@
----
-id: QuestService
-title: QuestService
-status: Active
-version: 1.0
-owner: OreLabs
-category: Service
-depends_on:
-  - DataService
-  - PlayerService
-  - MiningService
-  - StrengthService
-  - EconomyService
-last_updated: 2026-07-09
----
-
 --[[
     QuestService
     

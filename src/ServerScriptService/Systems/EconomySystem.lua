@@ -1,15 +1,3 @@
----
-id: EconomySystem
-title: EconomySystem
-status: Active
-version: 1.0
-owner: OreLabs
-category: System
-depends_on:
-  - EconomyService
-last_updated: 2026-07-09
----
-
 --[[
     EconomySystem
     

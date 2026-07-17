@@ -218,7 +218,47 @@ Every AI shares responsibility for preserving the architecture, documentation an
 
 ---
 
+# Rule 16 — No YAML Front Matter in Executable Files
+
+YAML Front Matter is strictly forbidden inside executable source files.
+
+Front Matter may only exist inside Markdown documentation.
+
+Executable files (.lua, .server.lua, .client.lua, .module.lua) must contain valid Lua syntax starting from the first executable or commented line.
+
+Metadata inside source files must be represented only as Lua comments.
+
+---
+
+# Rule 17 — Source File First Line
+
+Every executable Lua file SHALL begin with either:
+
+- A Lua block comment (`--[[ ... ]]`)
+- A Lua line comment (`--`)
+- Valid Lua code
+
+Files that begin with non-Lua syntax SHALL be rejected.
+
+---
+
+# Rule 18 — No Documentation Syntax in Code
+
+Executable source files SHALL NOT contain:
+
+- YAML Front Matter (`--- ... ---`)
+- Markdown syntax
+- Any non-Lua parsing syntax
+
+---
+
 # Revision History
+
+## v0.2
+
+- Added Rule 16 (No YAML Front Matter in Executable Files)
+- Added Rule 17 (Source File First Line)
+- Added Rule 18 (No Documentation Syntax in Code)
 
 ## v0.1
 

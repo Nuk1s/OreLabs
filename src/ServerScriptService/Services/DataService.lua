@@ -1,15 +1,3 @@
----
-id: DataService
-title: DataService
-status: Active
-version: 1.0
-owner: OreLabs
-category: Service
-depends_on:
-  - ConfigService
-last_updated: 2026-07-09
----
-
 --[[
     DataService
     

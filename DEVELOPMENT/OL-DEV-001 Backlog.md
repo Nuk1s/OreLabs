@@ -180,13 +180,25 @@ A task may only be marked as Completed when:
 
 # Epic: Strength System
 
-☐ Strength Training
+☑ Strength Training (Sprint 5 + 5.1 + 6 - Server-authoritative with Equipment Foundation)
 
 ☐ Strength Progression
 
 ☐ Strength UI
 
 ☐ Strength Balance
+
+---
+
+# Epic: Equipment System
+
+☑ Equipment Ownership (Sprint 6 - OwnedEquipment in profile)
+
+☑ Equipment Purchasing (Sprint 6 - BuyEquipment with validation)
+
+☑ Equipment Equipping (Sprint 6 - EquipEquipment with profile update)
+
+☑ Equipment Config (Sprint 6 - GameConfig.Equipment with full definitions)
 
 ---
 
@@ -211,6 +223,8 @@ A task may only be marked as Completed when:
 ---
 
 # Epic: Economy
+
+☑ Economy Design (OL-GMS-001 - Complete economy design document)
 
 ☐ Coins
 

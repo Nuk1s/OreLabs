@@ -97,7 +97,9 @@ Verify:
 - networking rules;
 - save compatibility;
 - performance considerations;
-- security.
+- security;
+- Rojo synchronization (when repository structure changed);
+- runtime startup (when executable code was modified).
 
 Correct problems before finishing.
 
@@ -203,7 +205,9 @@ The startup procedure is successful when:
 - the repository is fully synchronized;
 - implementation follows all project standards;
 - documentation remains accurate;
-- no architectural inconsistencies are introduced.
+- no architectural inconsistencies are introduced;
+- Rojo synchronization is validated after structural changes;
+- runtime startup is confirmed inside Roblox Studio.
 
 ---
 

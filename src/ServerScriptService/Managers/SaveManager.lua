@@ -1,15 +1,3 @@
----
-id: SaveManager
-title: SaveManager
-status: Active
-version: 1.0
-owner: OreLabs
-category: Manager
-depends_on:
-  - DataService
-last_updated: 2026-07-09
----
-
 --[[
     SaveManager
     

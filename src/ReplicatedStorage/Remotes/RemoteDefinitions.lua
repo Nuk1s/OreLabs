@@ -1,80 +1,33 @@
----
-id: RemoteDefinitions
-title: RemoteDefinitions
-status: Active
-version: 1.0
-owner: OreLabs
-category: Networking
-depends_on: []
-last_updated: 2026-07-09
----
-
 --[[
     RemoteDefinitions
     
     Purpose:
-    Defines all RemoteEvents and RemoteFunctions used by the game.
-    
-    Responsibility:
-    - Centralize remote definitions
-    - Provide remote lookup API
-    - Organize remotes by responsibility
-    - Prevent duplicate remote creation
+    Defines all RemoteEvents used by the game.
     
     Note:
-    Every Remote should have one responsibility.
-    RemoteEvents for one-way communication.
-    RemoteFunctions only when immediate response is required.
+    Training and Mining now use Tool.Activated.
+    Only shop and utility remotes remain.
 --]]
 
 local RemoteDefinitions = {}
 
 RemoteDefinitions.Events = {
-    -- Strength System
-    "TrainStrength",
+    -- Shop System
+    "BuyEquipment",
+    "BuyBackpack",
+    "SellOres",
     
-    -- Mining System
-    "MineOre",
-    
-    -- Economy System
-    "BuyItem",
-    "SellItem",
-    
-    -- Pet System
-    "OpenEgg",
-    "EquipPet",
-    "UnequipPet",
-    
-    -- Quest System
-    "StartQuest",
-    "CompleteQuest",
-    
-    -- AFK System
-    "StartAutoTrain",
-    "StopAutoTrain",
-    
-    -- World System
-    "TeleportWorld",
-    
-    -- Forge System
-    "CraftItem",
-    
-    -- UI Events
+    -- HUD System
     "UpdateHUD",
-    "ShowNotification",
-    "OpenMenu",
-    "CloseMenu",
-}
-
-RemoteDefinitions.Functions = {
-    -- Data Queries
-    "GetPlayerData",
-    "GetConfig",
     
-    -- UI Queries
-    "GetInventory",
-    "GetPetTeam",
-    "GetQuestProgress",
+    -- Area System
+    "EnterArea",
+    
+    -- Ore Info
+    "GetOreInfo",
+    
+    -- Dev Commands
+    "DevCommand",
 }
 
 return RemoteDefinitions

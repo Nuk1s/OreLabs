@@ -1,14 +1,3 @@
----
-id: GameConstants
-title: GameConstants
-status: Active
-version: 1.0
-owner: OreLabs
-category: Constants
-depends_on: []
-last_updated: 2026-07-09
----
-
 --[[
     GameConstants
     

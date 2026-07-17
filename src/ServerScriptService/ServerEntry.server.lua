@@ -1,14 +1,3 @@
----
-id: ServerEntry
-title: ServerEntry
-status: Active
-version: 1.0
-owner: OreLabs
-category: Core
-depends_on: []
-last_updated: 2026-07-09
----
-
 --[[
     ServerEntry
     
@@ -23,7 +12,7 @@ last_updated: 2026-07-09
 
 local ServerScriptService = game:GetService("ServerScriptService")
 
-local Bootstrap = require(ServerScriptService.Bootstrap.Bootstrap)
+local Bootstrap = require(ServerScriptService.Bootstrap.BootstrapLoader)
 
 local success = Bootstrap:Run()
 

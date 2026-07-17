@@ -1,15 +1,3 @@
----
-id: UIManager
-title: UIManager
-status: Active
-version: 1.0
-owner: OreLabs
-category: Manager
-depends_on:
-  - PlayerService
-last_updated: 2026-07-09
----
-
 --[[
     UIManager
     

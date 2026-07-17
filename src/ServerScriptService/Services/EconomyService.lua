@@ -1,16 +1,3 @@
----
-id: EconomyService
-title: EconomyService
-status: Active
-version: 1.0
-owner: OreLabs
-category: Service
-depends_on:
-  - DataService
-  - PlayerService
-last_updated: 2026-07-09
----
-
 --[[
     EconomyService
     

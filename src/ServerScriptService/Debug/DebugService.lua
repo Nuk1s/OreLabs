@@ -1,14 +1,3 @@
----
-id: DebugService
-title: DebugService
-status: Active
-version: 1.0
-owner: OreLabs
-category: Debug
-depends_on: []
-last_updated: 2026-07-09
----
-
 --[[
     DebugService
     

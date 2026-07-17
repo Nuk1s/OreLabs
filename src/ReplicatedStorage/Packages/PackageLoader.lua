@@ -1,14 +1,3 @@
----
-id: PackageLoader
-title: PackageLoader
-status: Active
-version: 1.0
-owner: OreLabs
-category: Packages
-depends_on: []
-last_updated: 2026-07-09
----
-
 --[[
     PackageLoader
     

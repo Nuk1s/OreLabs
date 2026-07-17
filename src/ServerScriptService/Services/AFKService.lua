@@ -1,18 +1,3 @@
----
-id: AFKService
-title: AFKService
-status: Active
-version: 1.0
-owner: OreLabs
-category: Service
-depends_on:
-  - DataService
-  - PlayerService
-  - StrengthService
-  - MiningService
-last_updated: 2026-07-09
----
-
 --[[
     AFKService
     

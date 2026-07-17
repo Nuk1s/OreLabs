@@ -1,14 +1,3 @@
----
-id: DebugUtils
-title: DebugUtils
-status: Active
-version: 1.0
-owner: OreLabs
-category: Utility
-depends_on: []
-last_updated: 2026-07-09
----
-
 --[[
     DebugUtils
     

@@ -1,14 +1,3 @@
----
-id: ProfileTemplate
-title: ProfileTemplate
-status: Active
-version: 1.0
-owner: OreLabs
-category: Core
-depends_on: []
-last_updated: 2026-07-09
----
-
 --[[
     ProfileTemplate
     
@@ -38,6 +27,14 @@ function ProfileTemplate.Create(player)
 
         Data = {
             Strength = 0,
+            CurrentEquipment = "StarterDumbbell",
+            OwnedEquipment = { "StarterDumbbell" },
+            CurrentBackpack = "StarterBackpack",
+            OwnedBackpacks = { "StarterBackpack" },
+            CurrentArea = "Area1",
+            UnlockedAreas = { "Area1" },
+            StoredOres = {},
+            StoredOreCount = 0,
 
             Economy = {
                 Coins = 0,
@@ -129,6 +126,8 @@ function ProfileTemplate.GetRequiredFields()
         "Session.Ready",
         "Data",
         "Data.Strength",
+        "Data.CurrentEquipment",
+        "Data.OwnedEquipment",
         "Data.Economy",
         "Data.Economy.Coins",
         "Data.Economy.Gems",

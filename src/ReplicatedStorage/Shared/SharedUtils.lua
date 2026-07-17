@@ -1,14 +1,3 @@
----
-id: SharedUtils
-title: SharedUtils
-status: Active
-version: 1.0
-owner: OreLabs
-category: Shared
-depends_on: []
-last_updated: 2026-07-09
----
-
 --[[
     SharedUtils
     

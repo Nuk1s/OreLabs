@@ -1,14 +1,3 @@
----
-id: InternalEvents
-title: InternalEvents
-status: Active
-version: 1.0
-owner: OreLabs
-category: Core
-depends_on: []
-last_updated: 2026-07-09
----
-
 --[[
     InternalEvents
     

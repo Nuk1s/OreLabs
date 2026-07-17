@@ -1,15 +1,3 @@
----
-id: StrengthSystem
-title: StrengthSystem
-status: Active
-version: 1.0
-owner: OreLabs
-category: System
-depends_on:
-  - StrengthService
-last_updated: 2026-07-09
----
-
 --[[
     StrengthSystem
     

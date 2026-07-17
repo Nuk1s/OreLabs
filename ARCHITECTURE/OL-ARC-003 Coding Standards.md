@@ -103,6 +103,29 @@ SAVE_INTERVAL
 
 ---
 
+# Lua File Naming Convention
+
+OreLabs does NOT use `.module.lua`.
+
+File extensions determine instance type in Rojo:
+
+- ModuleScript: `Something.lua`
+- Server Script: `Something.server.lua`
+- Client Script: `Something.client.lua`
+
+Rojo 7.x preserves the `.module` suffix in instance names, which breaks predictable `require()` paths. The `.module.lua` convention is forbidden in this repository.
+
+Examples:
+
+```text
+StrengthService.lua        → ModuleScript named "StrengthService"
+ServerEntry.server.lua     → Script named "ServerEntry"
+HUDController.lua          → ModuleScript named "HUDController"
+CharacterScripts.client.lua → LocalScript named "CharacterScripts"
+```
+
+---
+
 # Module Structure
 
 Every ModuleScript should expose one clear public interface.
